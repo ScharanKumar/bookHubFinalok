@@ -56,9 +56,9 @@ const Leftheader=(props)=>{
         }
     }
     return(
-        <div><h1 className="leftHeadone">Bookshelves</h1>
+        <div className="leftheaderCon1"><h1 className="leftHeadone">Bookshelves</h1>
         <div className="leftheaderCon1">
-            
+            <h1 className="leftHeading">Bookshelves</h1>
             <Link className="leftheaderLink" to="/allBooks" >
                 {a()}
             </Link>
