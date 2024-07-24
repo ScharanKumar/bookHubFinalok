@@ -1,0 +1,119 @@
+@media screen and (max-width: 576px){
+.detailConnot1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+.detailConnot2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(228, 231, 237);
+    padding:15px;
+    box-sizing: border-box;
+}
+.detailCon3{
+    width: 90%;
+}
+.successConnot11{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 10px;
+}
+.successConnot22{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.detailImagenot{
+    height: 150px;
+    width: 120px;
+    background-size: cover;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.horizon{
+    color: black;
+    width: 90%;
+    /* height: 10px; */
+}
+.detailHeadbook{
+    font-size: 22px;
+    color: rgb(44, 44, 44);
+    font-weight: 600;
+}
+.detailParabook1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(87, 86, 86);
+}
+.detailSpan{
+    color: rgb(62, 136, 232);
+}
+}
+
+@media screen and (min-width: 577px){
+    .detailCon1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .detailCon2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgb(228, 231, 237);
+        padding-left: 100px;
+        padding:100px;
+        box-sizing: border-box;
+    }
+    .detailCon3{
+        width: 90%;
+    }
+    .successCon11{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .successCon22{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .detailImage{
+        height: 300px;
+        width: 250px;
+        background-size: cover;
+        margin-right: 30px;
+        border-radius: 20px;
+    }
+    .horizon{
+        color: black;
+        width: 90%;
+        /* height: 10px; */
+    }
+    .detailHead{
+        font-size: 35px;
+        color: rgb(44, 44, 44);
+        font-weight: 600;
+    }
+    .detailPara1{
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(87, 86, 86);
+    }
+    .detailSpan{
+        color: rgb(62, 136, 232);
+    }
+    }

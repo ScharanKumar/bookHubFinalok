@@ -1,0 +1,94 @@
+@media screen and (max-width: 576px){
+    .homeCon1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: rgb(145, 193, 228);
+    }
+    .homeCon2{
+        background-color: rgb(222, 230, 236);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .homeHead{
+        font-size: 40px;
+        color: rgb(53, 52, 52);
+    }
+    .homePara{
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(73, 73, 73);
+    }
+    .homeCon3{
+        width: 90vw;
+        background-color: white;
+        border-radius: 20px;
+        padding: 15px;
+        box-sizing: border-box;
+        
+    }
+    .successConhome{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (min-width: 577px){
+    .homeCon1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: rgb(145, 193, 228);
+    }
+    .homeCon2{
+        background-color: rgb(222, 230, 236);
+        width: 100%;
+        padding: 100px;
+        box-sizing: border-box;
+    }
+    .homeHead{
+        font-size: 40px;
+        color: rgb(53, 52, 52);
+    }
+    .homePara{
+        font-size: 20px;
+        font-weight: 500;
+        color: rgb(73, 73, 73);
+    }
+    .homeCon3{
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+    }
+    .successConhome{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+    }
+}
+
+

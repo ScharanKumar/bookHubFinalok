@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 576px){
+    .currentlyreadingbooksCon1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .currentlyreadingbooksCon2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: rgb(195, 204, 218);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+    }
+    .headok{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 577px){
+    .currentlyreadingbooksCon1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .currentlyreadingbooksCon2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: rgb(195, 204, 218);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+    }
+}

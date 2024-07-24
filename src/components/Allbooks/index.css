@@ -1,0 +1,134 @@
+@media screen and (max-width: 576px){
+    .allbooksCon1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .allbooksCon2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgb(228, 231, 237);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    .allbooksCon3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    .allbooksCon4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .allbooksInput{
+        height: 25px;
+        width: 200px;
+        font-size: 15px;
+        padding: 5px;
+        border-width: 2px;
+        border-color: rgb(162, 160, 160);
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .headok{
+        display: none;
+    }
+    .failureviewCon{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .failureviewPara{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .successCon1{
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 577px){
+    .allbooksCon1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .allbooksCon2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgb(228, 231, 237);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .allbooksCon3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    .allbooksCon4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .allbooksInput{
+        height: 40px;
+        width: 250px;
+        border-width: 2px;
+        border-color: rgb(162, 160, 160);
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .failureviewCon{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .failureviewPara{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .successCon1{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+    }
+}

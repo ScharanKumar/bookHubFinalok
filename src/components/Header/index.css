@@ -1,0 +1,96 @@
+@media screen and (max-width: 576px){
+    .headerCon1{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 80px;
+        box-sizing: border-box;
+    }
+    .headerImage{
+        height: 40px;
+        background-size: cover;
+    }
+    .headerCon2{
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .headerButton{
+        width: 75px;
+        height: 30px;
+        background-color: rgb(9, 143, 209);
+        border-width: 0px;
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+    }
+    .headerHeading{
+        font-size: 18px;
+        color: rgb(9, 143, 209);
+        font-weight: 600;
+    }
+    .headerHeading1{
+        font-size: 18px;
+        color: rgb(163, 162, 162);
+        font-weight: 600;
+    }
+    .headerLink{
+        text-decoration: none;
+    }
+}
+@media screen and (min-width: 577px){
+.headerCon1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.headerImage{
+    height: 50px;
+    background-size: cover;
+}
+.headerCon2{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.headerButton{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(9, 143, 209);
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+.headerHeading{
+    font-size: 25px;
+    color: rgb(9, 143, 209);
+    font-weight: 700;
+}
+.headerHeading1{
+    font-size: 25px;
+    color: rgb(163, 162, 162);
+    font-weight: 700;
+}
+.headerLink{
+    text-decoration: none;
+}
+}
