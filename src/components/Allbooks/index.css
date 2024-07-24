@@ -5,6 +5,11 @@
         width: 100%;
         box-sizing: border-box;
     }
+    .failureImage{
+        width: 250px;
+        background-size: cover;
+        padding: 15px;
+    }
     .allbooksCon2{
         display: flex;
         flex-direction: column;

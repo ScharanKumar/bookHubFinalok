@@ -47,7 +47,7 @@ class Allbooks extends Component{
         return(
             <div className="failureviewCon">
                 {/* <img src="https://res.cloudinary.com/dkxxgpzd8/image/upload/v1647250727/Screenshot_30_uavmge.png" alt="errorImg"/> */}
-                <img src="https://res.cloudinary.com/dkxxgpzd8/image/upload/v1647250727/Screenshot_30_uavmge.png" alt="errorIMG"/>
+                <img className="failureImage" src="https://res.cloudinary.com/dkxxgpzd8/image/upload/v1647250727/Screenshot_30_uavmge.png" alt="errorIMG"/>
                 <p className="failureviewPara">Your search for {search} did not find any matches.</p>
                 <button type="button" className="headerButton">Try again</button>
                 {/* <img src="https://res.cloudinary.com/dwtsapuyn/image/upload/v1645183805/Notfound_2_lyiwc7.png" alt="Img"/> */}
